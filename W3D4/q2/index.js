@@ -6,7 +6,7 @@ app.use(express.urlencoded({extended:true}));
 
 app.get('/', (req, res) => {
 
-    //response
+    //
     res.send(`
         <form action="/result" method="post">
             <label>Name</label>
